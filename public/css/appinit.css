@@ -24,7 +24,7 @@ body * {
 }
 
 .animated{
-    width: 75vh;
+    width: 55vh;
 }
 
 .cadastro {
@@ -37,7 +37,7 @@ body * {
 }
 
 .btn-login{
-    width: 120%;
+    width: 85%;
     padding: 16px 0px;
     margin: 25px;
     border: none;
@@ -52,8 +52,8 @@ body * {
     box-shadow: 0px 10px 40px --12px #00ff8052 ;
 }
 
-.personalizacao-tabelas{
-    width: 110%;
+.init-box{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ body * {
 }
 
 
-.rigth-tabela {
+.rigth-initpag {
     width: 30vw;
     height: 100vh;
     display: flex;

@@ -18,7 +18,9 @@ Route::get('/', function () {
     return view('paginaInicial');
 });
 
-
+Route::get('/paginaInicial', function () {
+    return view('paginaInicial');
+});
 
 
 
