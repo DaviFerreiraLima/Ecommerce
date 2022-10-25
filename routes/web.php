@@ -32,7 +32,7 @@ Route::get('/produto/listar', [ProdutoController::class, 'listar']);
 
 Route::post('/produto/criar', [ProdutoController::class, 'criar']);
 
-Route::get('/produto/editar/{id}', [ProdutoController::class, 'editar']);
+Route::post('/produto/editar/{id}', [ProdutoController::class, 'editar']);
 
 Route::post('/produto/excluir/{id}', [ProdutoController::class,'excluir']);
 

@@ -42,8 +42,15 @@
                         @csrf
 
                         <button class="btm" type="submit">Excluir</button>
+                        
                     </form>
-                    <button class="btm" href="/produto/editar/{{ $l->id }}">editar</button>
+
+                    <form action="/produto/editar/{{ $l->id }}" method="POST">
+                        @csrf
+
+                        <button class="btm" type="submit">editar</button>
+                    </form>
+                   
             
                 </td>
             </tr>
